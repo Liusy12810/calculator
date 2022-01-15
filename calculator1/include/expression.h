@@ -10,18 +10,30 @@ namespace expr {
 	/// </summary>
 	class Expression {
 	public:
-	// constructors and deconstrutors.
+		// constructors and deconstrutors.
 		Expression();
-		Expression(std::string Str_exp);
-		~Expression();
 
-	// other member methods
-		void set_op(int op_id, double left, double right);
-		void set_Operator();
-		int find_Operator() const;
+		// create a expression by passing value directlly
+		Expression(double value);
+
+		// set operator of this expression
+		// take 3 * 5 for example, * is left number
+		void Operator(op::Op& op);
+
+		// set left number of expression
+		// take 3 * 5 for example, 3 is left number
+		void Left(double);
+
+		// set right number of expression
+		// take 3 * 5 for example, 5 is left number
+		void Right(double);
+
+		// return expression value
+		double Value();
 	private:
-		std::string _exp;
-		op::Op* _op;
+		double _left;
+		double _right;
+		op::Op*	_op;
 	};
 
 }
