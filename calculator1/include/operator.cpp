@@ -95,10 +95,10 @@ namespace op {
 	/// <para>4 : '/'</para>
 	/// <para>-1: other</para>
 	/// </returns>
-	int isop(int _C)
+	int isop(int _c)
 	{
 		int result;
-		switch (_C)
+		switch (_c)
 		{
 		case 0x2e: result = 0;
 			break;

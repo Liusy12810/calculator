@@ -16,10 +16,12 @@ namespace expr {
 		~Expression();
 
 	// other member methods
-		void set_Operator(const std::string & Str_exp);
+		void set_op(int op_id, double left, double right);
+		void set_Operator();
+		int find_Operator() const;
 	private:
 		std::string _exp;
-		op::Op* _Op;
+		op::Op* _op;
 	};
 
 }
