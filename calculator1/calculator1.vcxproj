@@ -139,13 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calculator1.cpp" />
-    <ClCompile Include="include\expression.cpp" />
+    <ClCompile Include="source\Calculator.cpp" />
+    <ClCompile Include="source\Expression.cpp" />
+    <ClCompile Include="source\ExpressionBuilder.cpp" />
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\Operator.cpp" />
+    <ClCompile Include="source\OperatorFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\expression.h" />
-    <ClInclude Include="include\operator.cpp" />
-    <ClInclude Include="include\operator.h" />
+    <ClInclude Include="include\Calculator.h" />
+    <ClInclude Include="include\Expression.h" />
+    <ClInclude Include="include\ExpressionBuilder.h" />
+    <ClInclude Include="include\Operator.h" />
+    <ClInclude Include="include\OperatorFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,21 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="calculator1.cpp">
+    <ClCompile Include="source\Expression.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="include\expression.cpp">
+    <ClCompile Include="source\Operator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ExpressionBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Calculator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="source\OperatorFactory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\operator.h">
+    <ClInclude Include="include\Operator.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="include\operator.cpp">
-      <Filter>源文件</Filter>
+    <ClInclude Include="include\Expression.h">
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="include\expression.h">
+    <ClInclude Include="include\ExpressionBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Calculator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OperatorFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
