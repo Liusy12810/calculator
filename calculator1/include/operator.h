@@ -55,5 +55,5 @@ namespace op {
 		double virtual calculate() override;
 	};
 
-	int isop(int _C);
+	int isop(int _c);
 }

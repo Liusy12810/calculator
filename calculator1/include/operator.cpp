@@ -86,7 +86,7 @@ namespace op {
 	/// <summary>
 	/// 
 	/// </summary>
-	/// <param name="_C"> : the input character to be checked</param>
+	/// <param name="_c"> : the input character to be checked</param>
 	/// <returns>
 	/// <para>0 : '.'</para>
 	/// <para>1 : '+'</para>
