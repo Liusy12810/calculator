@@ -1,16 +1,20 @@
+//
+
 #pragma once
 #include <string>
 #include <vector>
 #include "./Operator.h"
 
-class OperatorFactory
-{
-public:
-	OperatorFactory();
-	~OperatorFactory();
+namespace op {
+	class OperatorFactory
+	{
+	public:
+		OperatorFactory();
+		~OperatorFactory();
 
-	op::Op* GetOperator(const std::string&);
+		op::Op* GetOperator(const std::string&) const;
 
-private:
-	std::vector<op::Op*> _operators;
-};
+	private:
+		std::vector<op::Op*> _operators;
+	};
+}
