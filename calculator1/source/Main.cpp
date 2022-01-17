@@ -10,6 +10,6 @@ int main()
     
     std::cout << calc.calculate("1+2") << std::endl;
     std::cout << calc.calculate("4*7") << std::endl;
-    std::cout << calc.calculate("9/3") << std::endl;
+    std::cout << calc.calculate("13/2") << std::endl;
 }
 

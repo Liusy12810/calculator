@@ -18,10 +18,12 @@ namespace expr {
 
 		double Right(int oploc) const;
 
-		int locateOperator(const op::OperatorFactory& opfact) const;
-
+		int LocateOperator(const op::OperatorFactory& opFact) const;
+		
+		expr::Expression* BuildExpression(const op::OperatorFactory& opFact);
+	
 	private:
 		std::string _exp_Str;
-		expr::Expression* _Expr;
+		expr::Expression _Expr;
 	};
 }

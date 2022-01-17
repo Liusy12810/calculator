@@ -1,5 +1,6 @@
 //---
 
+#include <iostream>
 #include "../include/OperatorFactory.h"
 
 namespace op {
